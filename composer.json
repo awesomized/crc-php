@@ -1,0 +1,25 @@
+{
+    "name": "awesome/crc-php",
+    "description": "Awesome shared library calculating CRC checksums",
+    "homepage": "https://github.com/awesomized/crc-php",
+    "authors": [
+        {
+            "name": "Daniel Pimly",
+            "homepage": "https://github.com/xenocrat",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xenocrat\\": ""
+        }
+    }
+}
